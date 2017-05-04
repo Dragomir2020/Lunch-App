@@ -1,0 +1,69 @@
+/* Lunch app styles */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Float containers*/
+
+#container-left {
+	width: 30%;
+	height: 1000px;
+	background: black;
+	float: left;
+}
+#container-right {
+	width: 70%;
+	height: 1000px;
+	background: grey;
+	float: right;
+}
+/* Format Nav top */
+#nav-top{
+	height: 75px;
+	width: 100%;
+	background: red;
+}
+
+/* Format nav left*/
+#nav-left-top ul li{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+}
+#nav-left-bottom ul li{
+	color: white;
+	text-align: center;
+	padding: 20px;
+	border-bottom: solid 1px white;
+	border-top: solid 1px white;
+}
+#nav-left-bottom ul {
+	position: absolute;
+	bottom: 0px;
+	width: 30%;
+}
+/* Logo title */
+#logo {
+	width: 30%;
+	color: white;
+	line-height: 75px;
+	text-align: center;
+}
+/* Button Styles */
+.button {
+	text-decoration: none;
+	color: white
+}
+#profile-box {
+	width: 350px;
+	height: 150px;
+	position: absolute;
+	bottom: 0px;
+	left: 30%;
+	background: white;
+}
+
+
